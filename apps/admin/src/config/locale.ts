@@ -1,6 +1,8 @@
 import zhCNMessages from '@/locales/zh-CN'
+import zhTWMessages from '@/locales/zh-TW'
 import enMessages from '@/locales/en'
 import zhCNElement from 'element-plus/es/locale/lang/zh-cn'
+import zhTWElement from 'element-plus/es/locale/lang/zh-tw'
 import enElement from 'element-plus/es/locale/lang/en'
 
 export const localeRegistry = {
@@ -8,6 +10,11 @@ export const localeRegistry = {
     label: '简体中文',
     messages: zhCNMessages,
     elementLocale: zhCNElement
+  },
+  'zh-TW': {
+    label: '繁體中文',
+    messages: zhTWMessages,
+    elementLocale: zhTWElement
   },
   en: {
     label: 'English',
